@@ -1,0 +1,51 @@
+// === EXTERNAL === //
+
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+// === FONTS === //
+
+$font-main: 'Geist', sans-serif;
+
+// === COLORS === //
+
+$color-light-primary: hsl(0, 0%, 90%);
+$color-light-secondary: hsl(0, 0%, 10%);
+$color-light-tertiary: hsl(0, 0%, 80%);
+
+$color-dark-primary: hsl(0, 0%, 10%);
+$color-dark-secondary: hsl(0, 0%, 90%);
+$color-dark-tertiary: hsl(0, 0%, 20%);
+
+// === FONT-SIZE === //
+
+$font-size-bigger: 2rem;
+$font-size-big: 1.5rem;
+$font-size-larger: 1.25rem;
+$font-size-large: 1.125rem;
+$font-size-base: 1rem;
+$font-size-small: 0.875rem;
+
+// === LINE-HEIGHT === //
+
+$line-height-bigger: 1.2em;
+$line-height-big: 1.2em;
+$line-height-larger: 1.6em;
+$line-height-large: 1.6em;
+$line-height-base: 1.6em;
+$line-height-small: 2em;
+
+// === FONT-WEIGHT === //
+
+$font-weight-black: 900;
+$font-weight-bold: 700;
+$font-weight-regular: 400;
+
+// === SPACING === //
+
+$spacing-1: 8px;
+$spacing-2: 12px;
+$spacing-3: 16px;
+$spacing-4: 20px;
+$spacing-5: 24px;
+$spacing-6: 32px;
+$spacing-7: 48px;

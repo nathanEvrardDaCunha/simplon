@@ -1,0 +1,44 @@
+// === EXTERNAL === //
+
+@use 'variables';
+
+// === OVERALL === //
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: variables.$font-main;
+    font-size: variables.$font-size-base;
+    font-weight: variables.$font-weight-regular;
+    line-height: variables.$line-height-base;
+
+    min-height: 100vh;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
