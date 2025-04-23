@@ -5,6 +5,8 @@ import { PageRegister } from './PageRegister';
 
 // TODO: When DB and authentication system are implemented, deny page requiring isLogin, isAdmin...
 
+// TODO: 404 page
+
 const router = createBrowserRouter([{ path: '/register', element: <PageRegister /> }]);
 
 createRoot(document.getElementById('root')!).render(
